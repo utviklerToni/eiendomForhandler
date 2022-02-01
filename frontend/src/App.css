@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1b2633;
+  /* color: #573d7a; */
+  /* font-family: 'perfect dos vga 437 Win'; */
+}
+
+.container {
+  /* border: 1px solid white; */
+  max-width: 72vw;
+  margin: auto;
+  max-height: 100vh;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 90vw;
+  }
+}

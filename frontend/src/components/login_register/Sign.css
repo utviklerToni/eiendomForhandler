@@ -1,0 +1,119 @@
+form {
+  width: 30vw;
+  margin: auto;
+  padding: 30px 0px;
+  /* max-height: 100vh; */
+}
+
+input {
+  background: none;
+}
+
+input[type='email'],
+input[type='password'],
+input[type='text'],
+input[type='number'],
+textarea {
+  width: 100%;
+  margin: 10px 0px;
+  padding: 12px 9px;
+  border: 1px solid white;
+  outline: none;
+  border-radius: 4px;
+  border: 3px solid #573d7a;
+}
+
+input[type='email']:focus,
+input[type='password']:focus,
+input[type='text']:focus,
+input[type='number']:focus,
+textarea:focus {
+  border: 3px soild white;
+}
+input[type='email'],
+input[type='password'],
+input[type='text'],
+input[type='number'],
+textarea {
+  color: #ec4c31;
+}
+
+.welcome {
+  text-align: center;
+  margin-top: 18vh;
+}
+
+.myBtn {
+  margin-top: 23px;
+  font-size: 16px;
+  color: #ec4c31;
+  border-radius: 3px;
+  background-color: #012a4b;
+  text-decoration: none;
+  transition: all 120ms ease 0s;
+  overflow: hidden;
+  padding: 0px 12px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #012a4b;
+  border-image: initial;
+  width: 100%;
+  height: 43px;
+}
+
+@media (max-width: 630px) {
+  form {
+    width: 100%;
+  }
+}
+
+@media (min-width: 510px) {
+  form {
+    width: 90%;
+  }
+}
+
+@media (min-width: 720px) {
+  form {
+    width: 69%;
+  }
+}
+
+@media (min-width: 1020px) {
+  form {
+    width: 42%;
+  }
+}
+
+@media (min-width: 1320px) {
+  form {
+    width: 39%;
+  }
+}
+
+@media (min-width: 1620px) {
+  form {
+    width: 36%;
+  }
+}
+
+@media (min-width: 1920px) {
+  form {
+    width: 30%;
+  }
+}
+
+/* @media (max-width: 854px) {
+  input[type='email'],
+  input[type='password'],
+  input[type='text'],
+  input[type='number'],
+  textarea {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 12px 9px;
+    outline: none;
+    border-radius: 4px;
+    border: 3px solid #573d7a;
+  }
+} */

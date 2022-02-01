@@ -1,0 +1,26 @@
+.users-list {
+  /* list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 90%;
+  max-width: 50rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; */
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+
+@media (max-width: 1200px) {
+  .users-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+.heading-property-page {
+  color: white;
+  margin: 30px;
+  text-decoration: underline;
+}
